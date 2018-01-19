@@ -1,7 +1,42 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="36987c73-ab66-466f-a0f0-a94d6ae5da62" name="Default" comment="" />
+    <list default="true" id="36987c73-ab66-466f-a0f0-a94d6ae5da62" name="Default" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change beforePath="$PROJECT_DIR$/LSTM.py" afterPath="$PROJECT_DIR$/LSTM.py" />
+      <change beforePath="$PROJECT_DIR$/LSTM_eval.py" afterPath="$PROJECT_DIR$/LSTM_eval.py" />
+      <change beforePath="$PROJECT_DIR$/model_checkpoint/LSTM_model_epoch_1.ckpt.data-00000-of-00001" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/model_checkpoint/LSTM_model_epoch_1.ckpt.index" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/model_checkpoint/LSTM_model_epoch_1.ckpt.meta" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/model_checkpoint/LSTM_model_epoch_10.ckpt.data-00000-of-00001" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/model_checkpoint/LSTM_model_epoch_10.ckpt.index" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/model_checkpoint/LSTM_model_epoch_10.ckpt.meta" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/model_checkpoint/LSTM_model_epoch_2.ckpt.data-00000-of-00001" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/model_checkpoint/LSTM_model_epoch_2.ckpt.index" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/model_checkpoint/LSTM_model_epoch_2.ckpt.meta" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/model_checkpoint/LSTM_model_epoch_3.ckpt.data-00000-of-00001" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/model_checkpoint/LSTM_model_epoch_3.ckpt.index" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/model_checkpoint/LSTM_model_epoch_3.ckpt.meta" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/model_checkpoint/LSTM_model_epoch_4.ckpt.data-00000-of-00001" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/model_checkpoint/LSTM_model_epoch_4.ckpt.index" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/model_checkpoint/LSTM_model_epoch_4.ckpt.meta" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/model_checkpoint/LSTM_model_epoch_5.ckpt.data-00000-of-00001" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/model_checkpoint/LSTM_model_epoch_5.ckpt.index" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/model_checkpoint/LSTM_model_epoch_5.ckpt.meta" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/model_checkpoint/LSTM_model_epoch_6.ckpt.data-00000-of-00001" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/model_checkpoint/LSTM_model_epoch_6.ckpt.index" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/model_checkpoint/LSTM_model_epoch_6.ckpt.meta" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/model_checkpoint/LSTM_model_epoch_7.ckpt.data-00000-of-00001" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/model_checkpoint/LSTM_model_epoch_7.ckpt.index" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/model_checkpoint/LSTM_model_epoch_7.ckpt.meta" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/model_checkpoint/LSTM_model_epoch_8.ckpt.data-00000-of-00001" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/model_checkpoint/LSTM_model_epoch_8.ckpt.index" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/model_checkpoint/LSTM_model_epoch_8.ckpt.meta" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/model_checkpoint/LSTM_model_epoch_9.ckpt.data-00000-of-00001" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/model_checkpoint/LSTM_model_epoch_9.ckpt.index" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/model_checkpoint/LSTM_model_epoch_9.ckpt.meta" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/model_checkpoint/model" afterPath="" />
+    </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -11,11 +46,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="375">
-      <file leaf-file-name="LSTM.py" pinned="false" current-in-tab="true">
+      <file leaf-file-name="LSTM.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/LSTM.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1257">
-              <caret line="145" column="20" lean-forward="true" selection-start-line="145" selection-start-column="20" selection-end-line="145" selection-end-column="20" />
+            <state relative-caret-position="165">
+              <caret line="93" column="0" lean-forward="true" selection-start-line="93" selection-start-column="0" selection-end-line="93" selection-end-column="0" />
               <folding>
                 <element signature="e#159#196#0" expanded="true" />
               </folding>
@@ -23,11 +58,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="LSTM_eval.py" pinned="false" current-in-tab="false">
+      <file leaf-file-name="LSTM_eval.py" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/LSTM_eval.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="441">
-              <caret line="45" column="19" lean-forward="false" selection-start-line="45" selection-start-column="19" selection-end-line="45" selection-end-column="19" />
+            <state relative-caret-position="336">
+              <caret line="40" column="0" lean-forward="true" selection-start-line="40" selection-start-column="0" selection-end-line="40" selection-end-column="0" />
               <folding>
                 <element signature="e#83#120#0" expanded="true" />
               </folding>
@@ -88,6 +123,11 @@
               <item name="LSTM model" type="b2602c69:ProjectViewProjectNode" />
               <item name="LSTM model" type="462c0819:PsiDirectoryNode" />
               <item name="model_checkpoint" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="LSTM model" type="b2602c69:ProjectViewProjectNode" />
+              <item name="LSTM model" type="462c0819:PsiDirectoryNode" />
+              <item name="pickle" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -183,22 +223,22 @@
   <component name="ToolWindowManager">
     <frame x="-1359" y="-9" width="1368" height="2368" extended-state="6" />
     <layout>
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.24962963" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.24962963" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.23980278" sideWeight="0.50296295" order="7" side_tool="true" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.23980278" sideWeight="0.49703702" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3298969" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Python Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3298969" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.23980278" sideWeight="0.49703702" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.39982072" sideWeight="0.5711111" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.39982072" sideWeight="0.5711111" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
     </layout>
   </component>
@@ -210,7 +250,7 @@
       <breakpoints>
         <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
           <url>file://$PROJECT_DIR$/LSTM_eval.py</url>
-          <line>128</line>
+          <line>127</line>
           <option name="timeStamp" value="1" />
         </line-breakpoint>
       </breakpoints>
@@ -231,69 +271,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/LSTM_eval.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="3045">
-          <caret line="150" column="0" lean-forward="false" selection-start-line="150" selection-start-column="0" selection-end-line="150" selection-end-column="0" />
-          <folding>
-            <element signature="e#83#120#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/LSTM.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding>
-            <element signature="e#159#196#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/LSTM_eval.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="3045">
-          <caret line="150" column="0" lean-forward="false" selection-start-line="150" selection-start-column="0" selection-end-line="150" selection-end-column="0" />
-          <folding>
-            <element signature="e#83#120#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/data/beta1.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/data/beta.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/data/test_set_beta.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/data/train_set_beta.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-729">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/LSTM_eval.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="441">
+        <state relative-caret-position="945">
           <caret line="45" column="19" lean-forward="false" selection-start-line="45" selection-start-column="19" selection-end-line="45" selection-end-column="19" />
           <folding>
             <element signature="e#83#120#0" expanded="true" />
@@ -303,10 +281,76 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/LSTM.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1257">
-          <caret line="145" column="20" lean-forward="true" selection-start-line="145" selection-start-column="20" selection-end-line="145" selection-end-column="20" />
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
             <element signature="e#159#196#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/LSTM_eval.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="3045">
+          <caret line="150" column="0" lean-forward="false" selection-start-line="150" selection-start-column="0" selection-end-line="150" selection-end-column="0" />
+          <folding>
+            <element signature="e#83#120#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/LSTM.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding>
+            <element signature="e#159#196#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/LSTM_eval.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="3045">
+          <caret line="150" column="0" lean-forward="false" selection-start-line="150" selection-start-column="0" selection-end-line="150" selection-end-column="0" />
+          <folding>
+            <element signature="e#83#120#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/data/beta1.txt" />
+    <entry file="file://$PROJECT_DIR$/data/beta.txt" />
+    <entry file="file://$PROJECT_DIR$/data/test_set_beta.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/data/train_set_beta.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-729">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/LSTM.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="165">
+          <caret line="93" column="0" lean-forward="true" selection-start-line="93" selection-start-column="0" selection-end-line="93" selection-end-column="0" />
+          <folding>
+            <element signature="e#159#196#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/LSTM_eval.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="336">
+          <caret line="40" column="0" lean-forward="true" selection-start-line="40" selection-start-column="0" selection-end-line="40" selection-end-column="0" />
+          <folding>
+            <element signature="e#83#120#0" expanded="true" />
           </folding>
         </state>
       </provider>

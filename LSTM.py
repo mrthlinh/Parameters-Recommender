@@ -92,7 +92,6 @@ max_seq = 20
 epoch = 10
 n_hidden = 512 # number of units in RNN cell
 
-
 # ===========
 # Build data
 # ===========

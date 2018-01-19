@@ -39,7 +39,6 @@ def build_test_set(file,max_seq):
     dict = {'sequence':sequence, 'next_token':next_token,'max_len':max_len}
     return dict
 
-
 # Load Pickle file
 with open('./pickle/dictionary.pickle', 'rb') as handle:
     dictionary = pickle.load(handle)
