@@ -252,4 +252,3 @@ with open('./pickle/parameter.pickle','wb') as handle:
 # Store test set
 with open('./pickle/test_set.pickle','wb') as handle:
     pickle.dump(test_set, handle, protocol=pickle.HIGHEST_PROTOCOL)
-
