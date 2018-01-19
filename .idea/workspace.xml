@@ -3,39 +3,6 @@
   <component name="ChangeListManager">
     <list default="true" id="36987c73-ab66-466f-a0f0-a94d6ae5da62" name="Default" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change beforePath="$PROJECT_DIR$/LSTM.py" afterPath="$PROJECT_DIR$/LSTM.py" />
-      <change beforePath="$PROJECT_DIR$/LSTM_eval.py" afterPath="$PROJECT_DIR$/LSTM_eval.py" />
-      <change beforePath="$PROJECT_DIR$/model_checkpoint/LSTM_model_epoch_1.ckpt.data-00000-of-00001" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/model_checkpoint/LSTM_model_epoch_1.ckpt.index" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/model_checkpoint/LSTM_model_epoch_1.ckpt.meta" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/model_checkpoint/LSTM_model_epoch_10.ckpt.data-00000-of-00001" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/model_checkpoint/LSTM_model_epoch_10.ckpt.index" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/model_checkpoint/LSTM_model_epoch_10.ckpt.meta" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/model_checkpoint/LSTM_model_epoch_2.ckpt.data-00000-of-00001" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/model_checkpoint/LSTM_model_epoch_2.ckpt.index" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/model_checkpoint/LSTM_model_epoch_2.ckpt.meta" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/model_checkpoint/LSTM_model_epoch_3.ckpt.data-00000-of-00001" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/model_checkpoint/LSTM_model_epoch_3.ckpt.index" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/model_checkpoint/LSTM_model_epoch_3.ckpt.meta" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/model_checkpoint/LSTM_model_epoch_4.ckpt.data-00000-of-00001" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/model_checkpoint/LSTM_model_epoch_4.ckpt.index" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/model_checkpoint/LSTM_model_epoch_4.ckpt.meta" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/model_checkpoint/LSTM_model_epoch_5.ckpt.data-00000-of-00001" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/model_checkpoint/LSTM_model_epoch_5.ckpt.index" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/model_checkpoint/LSTM_model_epoch_5.ckpt.meta" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/model_checkpoint/LSTM_model_epoch_6.ckpt.data-00000-of-00001" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/model_checkpoint/LSTM_model_epoch_6.ckpt.index" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/model_checkpoint/LSTM_model_epoch_6.ckpt.meta" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/model_checkpoint/LSTM_model_epoch_7.ckpt.data-00000-of-00001" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/model_checkpoint/LSTM_model_epoch_7.ckpt.index" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/model_checkpoint/LSTM_model_epoch_7.ckpt.meta" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/model_checkpoint/LSTM_model_epoch_8.ckpt.data-00000-of-00001" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/model_checkpoint/LSTM_model_epoch_8.ckpt.index" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/model_checkpoint/LSTM_model_epoch_8.ckpt.meta" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/model_checkpoint/LSTM_model_epoch_9.ckpt.data-00000-of-00001" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/model_checkpoint/LSTM_model_epoch_9.ckpt.index" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/model_checkpoint/LSTM_model_epoch_9.ckpt.meta" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/model_checkpoint/model" afterPath="" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -46,11 +13,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="375">
-      <file leaf-file-name="LSTM.py" pinned="false" current-in-tab="false">
+      <file leaf-file-name="LSTM.py" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/LSTM.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="165">
-              <caret line="93" column="0" lean-forward="true" selection-start-line="93" selection-start-column="0" selection-end-line="93" selection-end-column="0" />
+            <state relative-caret-position="5334">
+              <caret line="254" column="0" lean-forward="true" selection-start-line="254" selection-start-column="0" selection-end-line="254" selection-end-column="0" />
               <folding>
                 <element signature="e#159#196#0" expanded="true" />
               </folding>
@@ -58,13 +25,13 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="LSTM_eval.py" pinned="false" current-in-tab="true">
+      <file leaf-file-name="LSTM_eval.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/LSTM_eval.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="336">
-              <caret line="40" column="0" lean-forward="true" selection-start-line="40" selection-start-column="0" selection-end-line="40" selection-end-column="0" />
+            <state relative-caret-position="84">
+              <caret line="4" column="0" lean-forward="false" selection-start-line="4" selection-start-column="0" selection-end-line="4" selection-end-column="0" />
               <folding>
-                <element signature="e#83#120#0" expanded="true" />
+                <element signature="e#82#119#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -78,8 +45,8 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/LSTM.py" />
         <option value="$PROJECT_DIR$/LSTM_eval.py" />
+        <option value="$PROJECT_DIR$/LSTM.py" />
       </list>
     </option>
   </component>
@@ -250,7 +217,7 @@
       <breakpoints>
         <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
           <url>file://$PROJECT_DIR$/LSTM_eval.py</url>
-          <line>127</line>
+          <line>126</line>
           <option name="timeStamp" value="1" />
         </line-breakpoint>
       </breakpoints>
@@ -274,7 +241,7 @@
         <state relative-caret-position="945">
           <caret line="45" column="19" lean-forward="false" selection-start-line="45" selection-start-column="19" selection-end-line="45" selection-end-column="19" />
           <folding>
-            <element signature="e#83#120#0" expanded="true" />
+            <element signature="e#82#119#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -294,7 +261,7 @@
         <state relative-caret-position="3045">
           <caret line="150" column="0" lean-forward="false" selection-start-line="150" selection-start-column="0" selection-end-line="150" selection-end-column="0" />
           <folding>
-            <element signature="e#83#120#0" expanded="true" />
+            <element signature="e#82#119#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -314,7 +281,7 @@
         <state relative-caret-position="3045">
           <caret line="150" column="0" lean-forward="false" selection-start-line="150" selection-start-column="0" selection-end-line="150" selection-end-column="0" />
           <folding>
-            <element signature="e#83#120#0" expanded="true" />
+            <element signature="e#82#119#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -335,22 +302,22 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/LSTM.py">
+    <entry file="file://$PROJECT_DIR$/LSTM_eval.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="165">
-          <caret line="93" column="0" lean-forward="true" selection-start-line="93" selection-start-column="0" selection-end-line="93" selection-end-column="0" />
+        <state relative-caret-position="84">
+          <caret line="4" column="0" lean-forward="false" selection-start-line="4" selection-start-column="0" selection-end-line="4" selection-end-column="0" />
           <folding>
-            <element signature="e#159#196#0" expanded="true" />
+            <element signature="e#82#119#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/LSTM_eval.py">
+    <entry file="file://$PROJECT_DIR$/LSTM.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="336">
-          <caret line="40" column="0" lean-forward="true" selection-start-line="40" selection-start-column="0" selection-end-line="40" selection-end-column="0" />
+        <state relative-caret-position="5334">
+          <caret line="254" column="0" lean-forward="true" selection-start-line="254" selection-start-column="0" selection-end-line="254" selection-end-column="0" />
           <folding>
-            <element signature="e#83#120#0" expanded="true" />
+            <element signature="e#159#196#0" expanded="true" />
           </folding>
         </state>
       </provider>
