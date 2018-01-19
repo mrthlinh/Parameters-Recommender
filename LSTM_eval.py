@@ -2,7 +2,6 @@
 Evaluation LSTM model to predict the next token
 author: Linh Hoang Truong
 '''
-
 from __future__ import print_function
 
 import numpy as np
