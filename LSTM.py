@@ -16,6 +16,18 @@ import time
 import sys
 import random
 
+# ===========
+# Parameters
+# ===========
+training_file = './data/train_set_beta.txt'
+learning_rate = 0.001
+layer_num = 3
+n_input = 3
+max_seq = 20
+epoch = 10
+n_hidden = 512 # number of units in RNN cell
+shift_step = 5 # shift step at each iteration
+
 # ===============
 # Helper Function
 # ===============
@@ -81,16 +93,7 @@ def build_test_set(file,max_seq):
     print("Minimum sequence length: ", min_len)
     dict = {'sequence':sequence, 'next_token':next_token,'max_len':max_len}
     return dict
-# ===========
-# Parameters
-# ===========
-training_file = './data/train_set_beta.txt'
-learning_rate = 0.001
-layer_num = 3
-n_input = 3
-max_seq = 20
-epoch = 10
-n_hidden = 512 # number of units in RNN cell
+
 
 # ===========
 # Build data
@@ -105,8 +108,7 @@ vocab_size = len(dictionary)
 print("Build Data Set...")
 
 test_set = build_test_set(training_file,max_seq)
-print("Build Data Set...")
-
+print("Build Test Set...")
 
 # =============
 #    Model
@@ -167,10 +169,12 @@ with tf.Session() as session:
         # print("[ ",end='',flush=True)
         num_training = len(training_data)
         end_offset = n_input + 1
-        step = 0
         acc_total = 0
         loss_total = 0
         progress = 0
+        step = 0
+        step = random.randint(0, 2) # Make a random starting point for each epoch
+        # print("step is: ",step)
         while step < (num_training - n_input):
 
 
@@ -187,7 +191,7 @@ with tf.Session() as session:
                                                     feed_dict={x: symbols_in_keys, y: symbols_out_onehot})
             loss_total += loss
             acc_total += acc
-            step += 1
+            step += shift_step
 
             # Display Progress
             progress = 100 * step / (num_training - n_input)
@@ -234,8 +238,10 @@ with tf.Session() as session:
 
     session.close()
 
+# =============
+#  Store Data
+# =============
 
-# Store data
 print("Store pickle data...")
 with open('./pickle/dictionary.pickle', 'wb') as handle:
     pickle.dump(dictionary, handle, protocol=pickle.HIGHEST_PROTOCOL)
