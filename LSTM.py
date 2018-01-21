@@ -173,7 +173,7 @@ with tf.Session() as session:
         loss_total = 0
         progress = 0
         step = 0
-        step = random.randint(0, 2) # Make a random starting point for each epoch
+        step = random.randint(0, shift_step-1) # Make a random starting point for each epoch
         # print("step is: ",step)
         while step < (num_training - n_input):
 
