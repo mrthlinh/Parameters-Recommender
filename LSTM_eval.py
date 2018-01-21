@@ -9,7 +9,13 @@ import tensorflow as tf
 from tensorflow.contrib import rnn
 import pickle
 
+# Load Test set
+test_file = "./data/train_set_beta.txt" # Evaluate Result of Training Set
+# test_file = "./data/test_set_beta.txt" # Evaluate Result of Test Set
 
+# ===============
+# Helper Function
+# ===============
 def build_test_set(file,max_seq):
     sequence = []
     next_token = []
@@ -38,6 +44,10 @@ def build_test_set(file,max_seq):
     dict = {'sequence':sequence, 'next_token':next_token,'max_len':max_len}
     return dict
 
+# ===============
+# Restore data
+# ===============
+
 # Load Pickle file
 with open('./pickle/dictionary.pickle', 'rb') as handle:
     dictionary = pickle.load(handle)
@@ -57,11 +67,15 @@ max_seq = parameter['max_seq']
 n_hidden = parameter['n_hidden'] # number of units in RNN cell
 
 # Load Test set
-# test_file = "./data/train_set_beta.txt"
-test_file = "./data/test_set_beta_3.txt"
+# # test_file = "./data/train_set_beta.txt"
+# test_file = "./data/test_set_beta_3.txt"
 test_set = build_test_set(test_file,max_seq)
 sequence= test_set['sequence']
 next_token= test_set['next_token']
+
+# =============
+#    Model
+# =============
 
 # tf Graph input
 x = tf.placeholder("float", [None, max_seq, 1])
@@ -99,7 +113,6 @@ pred = RNN(x, weights, biases)
 # Loss
 cost = tf.reduce_mean(tf.nn.softmax_cross_entropy_with_logits(logits=pred, labels=y))
 
-#
 # Model evaluation
 correct_pred = tf.equal(tf.argmax(pred,1), tf.argmax(y,1))
 accuracy = tf.reduce_mean(tf.cast(correct_pred, tf.float32))
